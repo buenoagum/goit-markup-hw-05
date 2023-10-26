@@ -23,6 +23,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 800;
+    
 }
 body{
     font-family: roboto;
@@ -93,6 +94,7 @@ body{
 .team-section{
     display: flex;
     justify-content: space-around;
+    padding-top: 120px;
 }
 
 .team-caption{
@@ -101,7 +103,8 @@ body{
 }
 
 .bg-dark{
-    background-color:var(--navyblue);
+    background-image: url("../images/people-office.jpg");
+    /*background-color:var(--navyblue);*/
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
@@ -171,9 +174,9 @@ body{
 
 .team-sm-s{
     display: inline-block;
-    display: flex;
     justify-content: space-around;
     padding: 0px;
+    
 }
 
 
@@ -272,15 +275,15 @@ body{
         line-height: 24px; 
         letter-spacing: 0.32px;
         padding-left: 40px;
-       
-      
+        margin-left: 120px;      
 }
+
 .footer-icon{
     display: flex;
     margin: 10px;
     list-style: none;
-    
-    
+    gap: 20px;
+    margin-left: 120px;
 }
 
 .button{
